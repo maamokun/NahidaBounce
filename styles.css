@@ -5,14 +5,14 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 100vh; /* Ensure the body takes up the full height of the viewport */
+    height: 100vh;
     display: flex;
     flex-direction: column;
   }
   
   #bouncingImage {
     position: absolute;
-    width: 200px; /* Adjust the size as you like */
+    width: 200px;
     height: auto;
     top: 0;
     left: 0;
@@ -26,8 +26,8 @@ body {
     font-family: 'Mochiy Pop One', sans-serif;
     color: #fff;
     margin-bottom: 20px;
-    position: absolute; /* Added this line */
-    top: 50%; /* Added this line */
-    left: 50%; /* Added this line */
-    transform: translate(-50%, -50%); /* Added this line */
+    position: absolute; 
+    top: 50%; 
+    left: 50%; 
+    transform: translate(-50%, -50%); 
   }
