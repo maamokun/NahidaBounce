@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background-image: url('https://cdn.mikn.dev/mikan-bg.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh; /* Ensure the body takes up the full height of the viewport */
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #bouncingImage {
+    position: absolute;
+    width: 200px; /* Adjust the size as you like */
+    height: auto;
+    top: 0;
+    left: 0;
+  }
+  
+  .slider {
+    margin-top: 20px; /* Adjust spacing as needed */
+  }
+  
+  h1.title {
+    font-family: 'Mochiy Pop One', sans-serif;
+    color: #fff;
+    margin-bottom: 20px;
+    position: absolute; /* Added this line */
+    top: 50%; /* Added this line */
+    left: 50%; /* Added this line */
+    transform: translate(-50%, -50%); /* Added this line */
+  }
